@@ -11,6 +11,7 @@ export default function App() {
     <SafeAreaProvider>
       <View style={styles.container}>
         <Text>f</Text>
+        <Text className = "text-red-500">{store.count}</Text>
         <StatusBar style="auto" />
       </View>
     </SafeAreaProvider>
